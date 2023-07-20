@@ -1,3 +1,10 @@
+body {
+    background: rgb(12,12,12);
+    background: -moz-radial-gradient(circle, rgba(12,12,12,1) 0%, rgba(68,248,239,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(12,12,12,1) 0%, rgba(68,248,239,1) 100%);
+    background: radial-gradient(circle, rgba(12,12,12,1) 0%, rgba(68,248,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0c0c",endColorstr="#44f8ef",GradientType=1);
+}
 
 /* 
 
